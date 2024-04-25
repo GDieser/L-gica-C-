@@ -30,22 +30,14 @@ namespace Eje31
 
                 if (num >= may)
                 {
+                    med = may;
                     may = num;
                 }
-                else
+                else if (num >= med)
                 {
-                    if (med == 0)
-                    {
-                        med = num;
-                    }
-                    else
-                    {
-                        if (num > med)
-                        {
-                            med = num;
-                        }
-                    }
+                    med = num;
                 }
+                
 
             }
 
